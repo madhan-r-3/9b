@@ -1,0 +1,25 @@
+PROGRAM
+
+mmregs
+
+text
+
+START:
+
+LD #00HA
+
+STM #1000H,AR4
+
+STM #2000H,ARS
+
+STM #3000H AR6
+
+LD *AR4,A
+
+ADD *ARS.A
+
+STL A.*AR6+
+
+HLT: B HLT
+
+7
